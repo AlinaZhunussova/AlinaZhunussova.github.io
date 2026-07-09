@@ -1,0 +1,23 @@
+# --- Basic site settings ---
+title: fMRI Methods & Tools I Appreciate
+description: >-
+  Notes, methods, and tools for fMRI analysis, with example code.
+author: Alina Zhunussova
+email: alina.s.zhunussova@gmail.com
+# --- Theme (built-in and supported by GitHub Pages) ---
+theme: minima
+# --- Plugins ---
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+# --- Links shown in the top nav (optional) ---
+# These point to pages in your repo. Add/remove as you like.
+header_pages:
+  - about.md
+# --- Social / repo links shown in the footer (optional) ---
+minima:
+  social_links:
+    github: AlinaZhunussova
+# Do not list these files as posts/pages
+exclude:
+  - README.md
